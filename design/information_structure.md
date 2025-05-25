@@ -522,3 +522,28 @@ Data volume	Low to medium: SQLite; Large: PostgreSQL
 Ease of setup	SQLite (zero-config)
 Desktop install footprint	SQLite (lightweight)
 Need for advanced features	PostgreSQL
+
+Flat file structure for initial testing:
+If you are starting with a single Excel file to manage your question bank in a flat structure, here is a well-organized set of columns that can support a wide range of questions — including MCQs, true/false, numerical, and assertion-reason — for Physics, Chemistry, and Mathematics:
+
+✅ Recommended Columns in Excel
+Column Name	Description
+QuestionID	Unique ID for each question (e.g., 101, JEE2024PHY001)
+Exam	Target exam (e.g., JEE, NEET, Olympiad)
+Subject	Physics, Chemistry, Mathematics
+Topic	Broad topic (e.g., Mechanics, Thermodynamics, Algebra)
+SubTopic	(Optional) More specific breakdown
+Type	MCQ-Single, MCQ-Multiple, TrueFalse, Numerical, AssertionReason
+Difficulty	Easy, Medium, Hard
+QuestionText	The question (support LaTeX syntax for formulas)
+OptionA	First answer option (can be blank for non-MCQs)
+OptionB	Second option
+OptionC	Third option
+OptionD	Fourth option
+CorrectOptions	One or more correct answers (e.g., A, A,B, True, 5.67, A:True;R:True;Cause)
+Explanation	Explanation or solution (can use LaTeX)
+Hint	Optional hint
+Tags	Comma-separated keywords for filtering (e.g., kinematics, displacement, motion)
+ImagePath (opt.)	If the question has an image, relative or full path (optional)
+CreatedBy (opt.)	Author or contributor name
+IsActive (opt.)	Yes or No — for soft-deletion or status filtering
