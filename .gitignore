@@ -1,12 +1,53 @@
 # Python
+backend/venv/
 __pycache__/
-*.pyc
-venv/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyd
+.Python
 
-# Node
-node_modules/
+# SQLite or local dev DB files
+*.sqlite3
 
-# Common
+# FastAPI env files
+backend/.env
 .env
-dist/
-build/
+
+# Alembic migration cache (if using Alembic)
+backend/alembic/versions/
+
+# Node.js / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+frontend/.env*
+
+# Turbopack/TurboRepo
+frontend/.turbo/
+
+# ESLint cache
+frontend/.eslintcache
+
+# TypeScript build info
+frontend/*.tsbuildinfo
+
+# Log files
+*.log
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.sublime*
+*.swp
+*.bak
+*.tmp
+
+# macOS system files
+.DS_Store
+
+# OS/Tooling
+Thumbs.db
+ehthumbs.db
+*.orig
+*.patch

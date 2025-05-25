@@ -1,0 +1,19 @@
+# Python 3.13 required
+
+fastapi==0.110.1
+uvicorn[standard]==0.21.1
+sqlalchemy==2.0.30
+sqlmodel==0.0.24
+alembic==1.13.1
+psycopg2-binary==2.9.10
+python-dotenv==1.0.1
+pydantic==2.11.5
+openpyxl==3.1.2
+pillow>=11.0.0
+PyJWT==2.7.0
+sympy==1.12
+latex2mathml==3.76.0
+pylatexenc==2.10
+chempy==0.8.2
+periodictable==1.7.0
+pandas==2.2.2
